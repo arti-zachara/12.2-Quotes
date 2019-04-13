@@ -4,4 +4,19 @@ body {
   background-image: url(../images/grass.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
+}
+main {
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid 1px white;
+  background-color: rgba(190, 228, 200, 0.6);
+  min-height: 300px;
+  max-width: 90vw;
+  color: white;
+
+  .btn {
+    min-width: 120px;
+  }
 }
